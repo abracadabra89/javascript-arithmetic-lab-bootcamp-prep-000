@@ -23,7 +23,9 @@ function divide(a,b){
 function makeInt(n){
   return parseInt(n,10);
 }
- function 
+ function preserveDecimal(n){
+   return 
+ }
 
   
   it('returns NaN as appropriate', function() {
