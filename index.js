@@ -1,27 +1,31 @@
 var a, b
 
-function beforeEach(a,b){
+function add(a,b){
   return a+b;
+}
+function substract(a,b){
   return a-b;
+}
+function multiply(a,b){
   return a*b;
+}
+function divide(a,b){
   return a/b;
-  return a+1;
-  return a-1
 }
+ function inc(n){
+  return n++;
+ }
+ function dec(n){
+   return n--;
+ }
 
-function makeIt(n){
-  return 
+
+function makeInt(n){
+  return parseInt(n,10);
 }
+ function 
 
-describe('makeInt(n)', function() {
-  it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
-  })
-
-  it('assumes base 10', function() {
-    expect(makeInt('0x2328')).toEqual(0)
-  })
-
+  
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
